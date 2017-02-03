@@ -5057,3 +5057,755 @@ BatchingMultipleIndexPopulator{activeTasks=5, executor=java.util.concurrent.Thre
 2017-02-03 14:48:58.606+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [2]:  Log pruning complete.
 2017-02-03 14:48:58.627+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
 2017-02-03 14:48:58.627+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-02-03 15:00:06.462+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6281592832 bytes will be used instead. 
+2017-02-03 15:00:06.522+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-02-03 15:00:06.583+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-02-03 15:00:06.595+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-02-03 15:00:06.595+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-02-03 15:00:06.595+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-02-03 15:00:06.595+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-02-03 15:00:06.596+0000 INFO  [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-02-03 15:00:06.597+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-02-03 15:00:06.597+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-02-03 15:00:06.597+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 15,60 GB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 10,30 GB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7,46 GB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 7,94 GB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 7,94 GB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 184,90 MB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 250,00 MB
+2017-02-03 15:00:06.598+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3,90 GB
+2017-02-03 15:00:06.599+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-02-03 15:00:06.599+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-02-03 15:00:06.599+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=4,31 MB, used=4,30 MB, max=240,00 MB, threshold=0,00 B
+2017-02-03 15:00:06.600+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=12,25 MB, used=11,69 MB, max=-1,00 B, threshold=0,00 B
+2017-02-03 15:00:06.600+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1,75 MB, used=1,55 MB, max=1,00 GB, threshold=0,00 B
+2017-02-03 15:00:06.600+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=57,00 MB, used=50,00 MB, max=-1,00 B, threshold=?
+2017-02-03 15:00:06.600+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=4,00 MB, used=4,00 MB, max=-1,00 B, threshold=?
+2017-02-03 15:00:06.600+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=189,00 MB, used=10,60 MB, max=3,90 GB, threshold=0,00 B
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.8.0-2-amd64; arch: amd64; cpus: 8
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 4096
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 93
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 6172@talamane
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Paris
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-02-03 15:00:06.601+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-02-03 15:00:06.602+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-02-03 15:00:06.602+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.121-b13
+2017-02-03 15:00:06.602+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-02-03 15:00:06.602+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-02-03 15:00:06.602+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-02-03 15:00:06.603+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/plugins/
+2017-02-03 15:00:06.603+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-logging-3.1.1.jar
+2017-02-03 15:00:06.603+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-core-1.19.jar
+2017-02-03 15:00:06.603+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-jaxrs-1.9.13.jar
+2017-02-03 15:00:06.603+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/rhino-1.7R4.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-common-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-compress-1.12.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-browser-2.0.0-M10.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-jmx-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/bcprov-jdk15on-1.53.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-2.3-2.3.8.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-3.1-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/mimepull-1.9.3.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-3.1-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-xml-9.2.9.v20150224.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-import-tool-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-io-2.4.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-mapper-asl-1.9.13.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/jaccess.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-unsafe-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-resource-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/cldrdata.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-collections-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-3.0-3.0.8.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-codegen-3.1.1.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-queryparser-5.5.0.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-security-9.2.9.v20150224.jar
+2017-02-03 15:00:06.604+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-server-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-http-9.2.9.v20150224.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-core-asl-1.9.13.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-2.3-2.3.8.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-command-line-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/asm-5.0.4.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-lang-2.6.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-io-9.2.9.v20150224.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jsse.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-logging-1.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-bolt-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/jfxrt.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graphdb-api-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-server-1.19.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-analyzers-common-5.5.0.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/parboiled-core-1.1.7.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jsr311-api-1.1.2.r612.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-io-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-lucene-upgrade-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/javax.servlet-api-3.1.0.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-3.0-3.0.8.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-shell-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/classes
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/conf/
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/bcpkix-jdk15on-1.53.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-lang3-3.3.2.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/plugins/*
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunjce_provider.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-configuration-1.10.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graph-matching-3.1.1.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/nashorn.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/rt.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-server-9.2.9.v20150224.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunec.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/charsets.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-beanutils-1.8.3.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/opencsv-2.3.jar
+2017-02-03 15:00:06.605+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/server-api-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/parboiled-scala_2.11-1.1.7.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/caffeine-2.3.3.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graph-algo-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/zipfs.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-consistency-check-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jce.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-primitive-collections-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-security-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-util-9.2.9.v20150224.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-multipart-1.19.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jline-2.12.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-dbms-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-lucene-index-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-csv-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-udc-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/dnsns.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/scala-reflect-2.11.8.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunpkcs11.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/sunrsasign.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/resources.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/scala-library-2.11.8.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-core-5.5.0.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-codecs-5.5.0.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/localedata.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-digester-2.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jfr.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/netty-all-4.1.6.Final.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-kernel-3.1.1.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-servlet-1.19.jar
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-02-03 15:00:06.606+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib64
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/amd64
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = FR
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /autofs/netapp/travail/camaussignac/panama_papers_2.0
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /net/cremi/camaussignac
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Paris
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = camaussignac
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1 --config-dir=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/conf
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = fr
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-02-03 15:00:06.607+0000 INFO  [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-02-03 15:00:06.612+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.612+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-02-03 15:00:06.613+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface br0:
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:900a:2dff:fe0a:1b6d%br0
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface eth0:
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:660:6101:800:105:0:0:18%eth0
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1a66:daff:fe43:9ea0%eth0
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.0.105.18
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-02-03 15:00:06.614+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-02-03 15:00:06.785+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-02-03 15:00:06.787+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2017-02-03 15:00:06.838+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_0[v0.A.7]' for the new store
+2017-02-03 15:00:07.535+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2017-02-03 15:00:07.656+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2017-02-03 15:00:07.663+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-02-03 15:00:07.731+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding lucene scan store, this may take a while
+2017-02-03 15:00:07.737+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Lucene scan store rebuilt (roughly 0 nodes)
+2017-02-03 15:00:07.740+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-02-03 15:00:07.986+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-02-03 15:00:07.987+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-02-03 15:00:07.988+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-02-03 15:00:07.989+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1486134007453, randomId=6789228984968658384, storeVersion=15531981201765894, upgradeTime=1486134007453, upgradeId=1}
+2017-02-03 15:00:07.989+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1,89b7bf20d72f757945f8c32988e4e4c1c83ce013
+2017-02-03 15:00:07.990+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-02-03 15:00:07.992+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-02-03 15:00:07.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-02-03 15:00:07.994+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-02-03 15:00:07.995+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-02-03 15:00:07.995+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-02-03 15:00:07.996+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:00:07.997+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-02-03 15:00:07.997+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:00:07.998+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-02-03 15:00:07.999+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-02-03 15:00:07.999+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-02-03 15:00:08.000+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:00:08.000+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-02-03 15:00:08.001+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:00:08.002+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-02-03 15:00:08.003+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-02-03 15:00:08.004+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-02-03 15:00:08.004+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-02-03 15:00:08.005+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-02-03 15:00:08.006+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-02-03 15:00:08.007+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-02-03 15:00:08.008+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-02-03 15:00:08.009+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-02-03 15:00:08.012+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2017-02-03 15:00:08.013+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:00:08.015+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2017-02-03 15:00:08.016+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:00:08.017+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-02-03 15:00:08.017+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2017-02-03 15:00:08.018+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2017-02-03 15:00:08.019+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:00:08.020+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2017-02-03 15:00:08.021+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:00:08.022+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2017-02-03 15:00:08.023+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-02-03 15:00:08.024+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-02-03 15:00:08.024+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-02-03 15:00:08.025+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-02-03 15:00:08.026+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-02-03 15:00:08.026+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-02-03 15:00:08.028+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1486134007453
+2017-02-03 15:00:08.029+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 6789228984968658384
+2017-02-03 15:00:08.029+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-02-03 15:00:08.030+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2017-02-03 15:00:08.031+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-02-03 15:00:08.031+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-02-03 15:00:08.033+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-02-03 15:00:08.034+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-02-03 15:00:08.035+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1486134007453
+2017-02-03 15:00:08.036+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2017-02-03 15:00:08.037+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-02-03 15:00:08.037+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-02-03 15:00:08.038+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2017-02-03 15:00:08.039+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2017-02-03 15:00:08.040+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-02-03 15:00:08.042+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-02-03 15:00:08.044+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-02-03 15:00:08.045+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-02-03 15:00:08.048+0000 INFO  [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2017-02-03 15:00:08.049+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-02-03 15:00:08.049+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-02-03 15:00:08.051+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 3001666764800 / 1062385549312 / 35
+Storage files: (filename : modification date - size)
+2017-02-03 15:00:08.053+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-02-03 15:00:08.054+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.055+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.056+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-02-03T16:00:07+0100 - 96,00 B
+2017-02-03 15:00:08.057+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.057+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.059+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.060+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.061+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.062+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-02-03T16:00:06+0100 - 0,00 B
+2017-02-03 15:00:08.063+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-02-03T16:00:06+0100 - 9,00 B
+2017-02-03 15:00:08.064+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-02-03T16:00:06+0100 - 8,00 kB
+2017-02-03 15:00:08.065+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-02-03T16:00:06+0100 - 9,00 B
+2017-02-03 15:00:08.065+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.066+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.068+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.068+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.069+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-02-03T16:00:06+0100 - 0,00 B
+2017-02-03 15:00:08.070+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-02-03T16:00:06+0100 - 9,00 B
+2017-02-03 15:00:08.071+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-02-03T16:00:06+0100 - 8,00 kB
+2017-02-03 15:00:08.071+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-02-03T16:00:06+0100 - 9,00 B
+2017-02-03 15:00:08.072+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.073+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.074+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.075+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.076+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.076+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.077+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.079+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.079+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.080+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.081+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-02-03T16:00:07+0100 - 8,00 kB
+2017-02-03 15:00:08.082+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-02-03T16:00:07+0100 - 9,00 B
+2017-02-03 15:00:08.083+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-02-03T16:00:07+0100 - 16,00 B
+2017-02-03 15:00:08.083+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-02-03 15:00:08.086+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-02-03 15:00:08.087+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-02-03 15:00:08.089+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-02-03 15:00:08.091+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-02-03 15:00:08.093+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.094+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-02-03T16:00:07+0100 - 0,00 B
+2017-02-03 15:00:08.095+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-02-03T16:00:07+0100 - 16,00 kB
+2017-02-03 15:00:08.097+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-02-03T16:00:07+0100 - 16,00 kB
+2017-02-03 15:00:08.098+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-02-03T16:00:07+0100 - 16,00 kB
+2017-02-03 15:00:08.099+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-02-03T16:00:07+0100 - 16,00 kB
+2017-02-03 15:00:08.100+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-03T16:00:07+0100 - 16,00 kB
+2017-02-03 15:00:08.101+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-02-03T16:00:06+0100 - 0,00 B
+2017-02-03 15:00:08.102+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-02-03 15:00:08.862+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-02-03 15:00:09.502+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-02-03 15:00:18.330+0000 ERROR [o.n.b.v.t.BoltProtocolV1] Failed to write response to driver Cannot write to buffer when closed
+java.io.IOException: Cannot write to buffer when closed
+	at org.neo4j.bolt.v1.transport.ChunkedOutput.ensure(ChunkedOutput.java:163)
+	at org.neo4j.bolt.v1.transport.ChunkedOutput.writeShort(ChunkedOutput.java:94)
+	at org.neo4j.bolt.v1.packstream.PackStream$Packer.packStructHeader(PackStream.java:330)
+	at org.neo4j.bolt.v1.messaging.BoltResponseMessageWriter.onFailure(BoltResponseMessageWriter.java:87)
+	at org.neo4j.bolt.v1.messaging.MessageProcessingHandler.publishError(MessageProcessingHandler.java:46)
+	at org.neo4j.bolt.v1.messaging.MessageProcessingHandler.onFinish(MessageProcessingHandler.java:107)
+	at org.neo4j.bolt.v1.runtime.BoltStateMachine.after(BoltStateMachine.java:105)
+	at org.neo4j.bolt.v1.runtime.BoltStateMachine.run(BoltStateMachine.java:201)
+	at org.neo4j.bolt.v1.messaging.BoltMessageRouter.lambda$onRun$3(BoltMessageRouter.java:80)
+	at org.neo4j.bolt.v1.runtime.concurrent.RunnableBoltWorker.execute(RunnableBoltWorker.java:136)
+	at org.neo4j.bolt.v1.runtime.concurrent.RunnableBoltWorker.run(RunnableBoltWorker.java:89)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 15:00:30.667+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-02-03 15:00:30.667+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-02-03 15:00:30.674+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Starting check pointing...
+2017-02-03 15:00:30.675+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Starting store flush...
+2017-02-03 15:00:30.704+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 182 to [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.b], from [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.a].
+2017-02-03 15:00:30.710+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 182 to [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.b], from [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.a].
+2017-02-03 15:00:31.330+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Store flush completed
+2017-02-03 15:00:31.331+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Starting appending check point entry into the tx log...
+2017-02-03 15:00:31.332+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Appending check point entry into the tx log completed
+2017-02-03 15:00:31.333+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [182]:  Check pointing completed
+2017-02-03 15:00:31.333+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-02-03 15:00:31.334+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-02-03 15:00:31.377+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-02-03 15:00:31.377+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-02-03 15:02:34.797+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6281592832 bytes will be used instead. 
+2017-02-03 15:02:34.858+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-02-03 15:02:34.919+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-02-03 15:02:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-02-03 15:02:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-02-03 15:02:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-02-03 15:02:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-02-03 15:02:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-02-03 15:02:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-02-03 15:02:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-02-03 15:02:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-02-03 15:02:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 15,60 GB
+2017-02-03 15:02:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 10,58 GB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7,46 GB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 7,94 GB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 7,94 GB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 185,37 MB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 250,00 MB
+2017-02-03 15:02:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3,90 GB
+2017-02-03 15:02:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-02-03 15:02:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-02-03 15:02:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=4,38 MB, used=4,34 MB, max=240,00 MB, threshold=0,00 B
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=12,25 MB, used=11,69 MB, max=-1,00 B, threshold=0,00 B
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1,75 MB, used=1,55 MB, max=1,00 GB, threshold=0,00 B
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=154,00 MB, used=47,00 MB, max=-1,00 B, threshold=?
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=4,00 MB, used=4,00 MB, max=-1,00 B, threshold=?
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=92,00 MB, used=13,13 MB, max=3,90 GB, threshold=0,00 B
+2017-02-03 15:02:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.8.0-2-amd64; arch: amd64; cpus: 8
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 4096
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 93
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 7136@talamane
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Paris
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-02-03 15:02:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-02-03 15:02:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.121-b13
+2017-02-03 15:02:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-02-03 15:02:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-02-03 15:02:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-02-03 15:02:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/plugins/
+2017-02-03 15:02:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-logging-3.1.1.jar
+2017-02-03 15:02:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-core-1.19.jar
+2017-02-03 15:02:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-jaxrs-1.9.13.jar
+2017-02-03 15:02:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/rhino-1.7R4.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-common-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-compress-1.12.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-browser-2.0.0-M10.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-jmx-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/bcprov-jdk15on-1.53.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-2.3-2.3.8.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-3.1-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/mimepull-1.9.3.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-3.1-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-xml-9.2.9.v20150224.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-import-tool-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-io-2.4.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-mapper-asl-1.9.13.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/jaccess.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-unsafe-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-resource-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/cldrdata.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-collections-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-frontend-3.0-3.0.8.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-codegen-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-queryparser-5.5.0.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-security-9.2.9.v20150224.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-server-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-http-9.2.9.v20150224.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jackson-core-asl-1.9.13.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-2.3-2.3.8.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-command-line-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/asm-5.0.4.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-lang-2.6.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-io-9.2.9.v20150224.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jsse.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-logging-1.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-bolt-3.1.1.jar
+2017-02-03 15:02:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/jfxrt.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graphdb-api-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-server-1.19.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-analyzers-common-5.5.0.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/parboiled-core-1.1.7.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jsr311-api-1.1.2.r612.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-io-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-lucene-upgrade-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/javax.servlet-api-3.1.0.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-compiler-3.0-3.0.8.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-shell-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-cypher-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/classes
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/conf/
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/bcpkix-jdk15on-1.53.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-lang3-3.3.2.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/plugins/*
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunjce_provider.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-configuration-1.10.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graph-matching-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/nashorn.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/rt.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-server-9.2.9.v20150224.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunec.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/charsets.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-beanutils-1.8.3.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/opencsv-2.3.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/server-api-3.1.1.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/parboiled-scala_2.11-1.1.7.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/caffeine-2.3.3.jar
+2017-02-03 15:02:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-graph-algo-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/zipfs.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-consistency-check-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jce.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-primitive-collections-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-security-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jetty-util-9.2.9.v20150224.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-multipart-1.19.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jline-2.12.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-dbms-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-lucene-index-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-csv-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-udc-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/dnsns.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/scala-reflect-2.11.8.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/sunpkcs11.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/sunrsasign.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/resources.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/scala-library-2.11.8.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-core-5.5.0.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/lucene-codecs-5.5.0.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/ext/localedata.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/commons-digester-2.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/jfr.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/netty-all-4.1.6.Final.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/neo4j-kernel-3.1.1.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/autofs/netapp/travail/camaussignac/panama_papers_2.0/neo4j-community-3.1.1/lib/jersey-servlet-1.19.jar
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib64
+2017-02-03 15:02:34.941+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/oracle-java8-jdk-amd64/jre/lib/amd64
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = FR
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /autofs/netapp/travail/camaussignac/panama_papers_2.0
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /net/cremi/camaussignac
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Paris
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = camaussignac
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1 --config-dir=/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/conf
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = fr
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-02-03 15:02:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-02-03 15:02:34.943+0000 INFO  [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-02-03 15:02:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.948+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.948+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.948+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.948+0000 INFO  [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-02-03 15:02:34.948+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface br0:
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:900a:2dff:fe0a:1b6d%br0
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface eth0:
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:660:6101:800:105:0:0:18%eth0
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1a66:daff:fe43:9ea0%eth0
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.0.105.18
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-02-03 15:02:34.949+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-02-03 15:02:35.078+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-02-03 15:02:35.079+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2017-02-03 15:02:35.151+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_0[v0.A.7]' for the new store
+2017-02-03 15:02:35.470+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2017-02-03 15:02:35.582+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2017-02-03 15:02:35.599+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-02-03 15:02:35.683+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding lucene scan store, this may take a while
+2017-02-03 15:02:35.689+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Lucene scan store rebuilt (roughly 0 nodes)
+2017-02-03 15:02:35.691+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-02-03 15:02:35.951+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-02-03 15:02:35.952+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-02-03 15:02:35.953+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-02-03 15:02:35.953+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1486134155396, randomId=8427627560436772232, storeVersion=15531981201765894, upgradeTime=1486134155396, upgradeId=1}
+2017-02-03 15:02:35.953+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1,89b7bf20d72f757945f8c32988e4e4c1c83ce013
+2017-02-03 15:02:35.954+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-02-03 15:02:35.955+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-02-03 15:02:35.956+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-02-03 15:02:35.956+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-02-03 15:02:35.956+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-02-03 15:02:35.957+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-02-03 15:02:35.957+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:02:35.957+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-02-03 15:02:35.958+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:02:35.958+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-02-03 15:02:35.958+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-02-03 15:02:35.958+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-02-03 15:02:35.958+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:02:35.959+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-02-03 15:02:35.959+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-02-03 15:02:35.959+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-02-03 15:02:35.959+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-02-03 15:02:35.960+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-02-03 15:02:35.960+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-02-03 15:02:35.960+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-02-03 15:02:35.960+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-02-03 15:02:35.961+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-02-03 15:02:35.961+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-02-03 15:02:35.961+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-02-03 15:02:35.962+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2017-02-03 15:02:35.962+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:02:35.962+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2017-02-03 15:02:35.963+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:02:35.963+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-02-03 15:02:35.963+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2017-02-03 15:02:35.964+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2017-02-03 15:02:35.964+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:02:35.964+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2017-02-03 15:02:35.965+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-02-03 15:02:35.965+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2017-02-03 15:02:35.965+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-02-03 15:02:35.966+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-02-03 15:02:35.966+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-02-03 15:02:35.967+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-02-03 15:02:35.967+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-02-03 15:02:35.967+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-02-03 15:02:35.968+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1486134155396
+2017-02-03 15:02:35.968+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 8427627560436772232
+2017-02-03 15:02:35.969+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-02-03 15:02:35.969+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2017-02-03 15:02:35.969+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-02-03 15:02:35.970+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-02-03 15:02:35.970+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-02-03 15:02:35.970+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-02-03 15:02:35.971+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1486134155396
+2017-02-03 15:02:35.971+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2017-02-03 15:02:35.971+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-02-03 15:02:35.972+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-02-03 15:02:35.972+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2017-02-03 15:02:35.972+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2017-02-03 15:02:35.972+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-02-03 15:02:35.973+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-02-03 15:02:35.973+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-02-03 15:02:35.974+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-02-03 15:02:35.975+0000 INFO  [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2017-02-03 15:02:35.975+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-02-03 15:02:35.976+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-02-03 15:02:35.977+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 3001666764800 / 1062328729600 / 35
+Storage files: (filename : modification date - size)
+2017-02-03 15:02:35.978+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-02-03 15:02:35.978+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.979+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.979+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-02-03T16:02:35+0100 - 96,00 B
+2017-02-03 15:02:35.979+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.980+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.980+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.981+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.981+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.982+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.982+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.982+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.983+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.983+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.983+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.984+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.984+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.985+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.985+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.985+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.986+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.987+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.987+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.988+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.988+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.988+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.989+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.989+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.990+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.990+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.991+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.992+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-02-03T16:02:35+0100 - 8,00 kB
+2017-02-03 15:02:35.992+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-02-03T16:02:35+0100 - 9,00 B
+2017-02-03 15:02:35.993+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-02-03T16:02:35+0100 - 16,00 B
+2017-02-03 15:02:35.993+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-02-03 15:02:35.994+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-02-03 15:02:35.995+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-02-03 15:02:35.996+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-02-03 15:02:35.997+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-02-03 15:02:35.997+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.998+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:35.998+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-02-03T16:02:35+0100 - 16,00 kB
+2017-02-03 15:02:35.999+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-02-03T16:02:35+0100 - 16,00 kB
+2017-02-03 15:02:35.999+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-02-03T16:02:35+0100 - 16,00 kB
+2017-02-03 15:02:36.000+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-02-03T16:02:35+0100 - 16,00 kB
+2017-02-03 15:02:36.000+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-03T16:02:35+0100 - 16,00 kB
+2017-02-03 15:02:36.001+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-02-03T16:02:35+0100 - 0,00 B
+2017-02-03 15:02:36.001+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-02-03 15:02:36.791+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-02-03 15:02:37.403+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-02-03 15:02:56.509+0000 INFO  [o.n.k.NeoStoreDataSource] Rotating log version:0
+2017-02-03 15:02:56.510+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.transaction.db.1] version=1, lastTxId=338 (clean)
+2017-02-03 15:02:56.511+0000 INFO  [o.n.k.NeoStoreDataSource] Finished rotating log version:0
+2017-02-03 15:03:10.594+0000 INFO  [o.n.k.NeoStoreDataSource] Rotating log version:1
+2017-02-03 15:03:10.596+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.transaction.db.2] version=2, lastTxId=626 (clean)
+2017-02-03 15:03:10.596+0000 INFO  [o.n.k.NeoStoreDataSource] Finished rotating log version:1
+2017-02-03 15:03:16.401+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-02-03 15:03:16.406+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-02-03 15:03:24.261+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Address(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:24.884+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@44a538c2[Running, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 15], batchedUpdates = [1605 updates], queuedUpdates = 0}
+2017-02-03 15:03:24.885+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@44a538c2[Running, pool size = 7, active threads = 1, queued tasks = 0, completed tasks = 15], batchedUpdates = [], queuedUpdates = 0}
+2017-02-03 15:03:25.922+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Address(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:25.922+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:25.928+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:25.933+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Entity(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:26.884+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.ThreadPoolExecutor@7c972a86[Running, pool size = 7, active threads = 2, queued tasks = 0, completed tasks = 47], batchedUpdates = [5038 updates], queuedUpdates = 0}
+2017-02-03 15:03:26.884+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=3, executor=java.util.concurrent.ThreadPoolExecutor@7c972a86[Running, pool size = 7, active threads = 3, queued tasks = 0, completed tasks = 47], batchedUpdates = [], queuedUpdates = 0}
+2017-02-03 15:03:28.805+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Entity(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:28.806+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:28.808+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:28.818+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Intermediary(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:29.063+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@68e99d55[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], batchedUpdates = [4177 updates], queuedUpdates = 0}
+2017-02-03 15:03:29.064+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@68e99d55[Running, pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2], batchedUpdates = [], queuedUpdates = 0}
+2017-02-03 15:03:29.213+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Intermediary(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:29.213+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:29.214+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:29.219+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Officer(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:29.740+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=5, executor=java.util.concurrent.ThreadPoolExecutor@48ae2bf1[Running, pool size = 7, active threads = 5, queued tasks = 0, completed tasks = 32], batchedUpdates = [854 updates], queuedUpdates = 0}
+2017-02-03 15:03:29.741+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=6, executor=java.util.concurrent.ThreadPoolExecutor@48ae2bf1[Running, pool size = 7, active threads = 5, queued tasks = 1, completed tasks = 32], batchedUpdates = [], queuedUpdates = 0}
+2017-02-03 15:03:31.805+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Officer(node_id) [provider: {key=lucene, version=1.0}]]
+2017-02-03 15:03:31.806+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:03:31.807+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.

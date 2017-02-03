@@ -50,4 +50,9 @@ print("== INDICES CREATION ==")
 for query in CONSTRAINT_QUERIES:
   print("- %s new constraint added !" % (send_query(query).consume().counters.constraints_added))
 
+print("start n=node(*) match (n:Address) return count(n)")
+print("start n=node(*) match (n:Entity) return count(n)")
+print("start n=node(*) match (n:Intermediary) return count(n)")
+print("start n=node(*) match (n:Officer) return count(n)")
+
 SESSION.close()

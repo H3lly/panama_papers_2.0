@@ -111,3 +111,16 @@ nohup: les entrées sont ignorées
 2017-02-03 14:48:58.575+0000 INFO  Neo4j Server shutdown initiated by request
 2017-02-03 14:48:58.582+0000 INFO  Stopping...
 2017-02-03 14:48:58.631+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 15:00:06.429+0000 INFO  Starting...
+2017-02-03 15:00:06.786+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 15:00:08.861+0000 INFO  Started.
+2017-02-03 15:00:09.501+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 15:00:30.659+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 15:00:30.666+0000 INFO  Stopping...
+2017-02-03 15:00:31.381+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 15:02:34.766+0000 INFO  Starting...
+2017-02-03 15:02:35.078+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 15:02:36.791+0000 INFO  Started.
+2017-02-03 15:02:37.402+0000 INFO  Remote interface available at http://localhost:7474/
