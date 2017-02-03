@@ -4,3 +4,110 @@ nohup: les entrées sont ignorées
 2017-02-03 13:34:48.955+0000 INFO  Bolt enabled on localhost:7687.
 2017-02-03 13:34:50.743+0000 INFO  Started.
 2017-02-03 13:34:51.405+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 13:56:12.192+0000 ERROR Client triggered an unexpected error [UnknownError]: At /net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/import/Addresses.csv:124786 -  there's a field starting with a quote and whereas it ends that quote there seems to be characters in that field after that ending quote. That isn't supported. This is what I read: '11F.-2, No. 102, GUANGFU S. RD., XINYI DISTRICT, Taipei City 110, Taiwan, R.O.C ",,The Offshore Leaks data is current through 2010,TWN,Taiwan,242192,Offshore Leaks,
+"1'. See debug.log for more details, reference 49d86aa8-2130-4a84-a665-5ba1fa28226a.
+2017-02-03 14:01:56.340+0000 ERROR Client triggered an unexpected error [ConstraintCreationFailed]: Unable to create CONSTRAINT ON ( address:Address ) ASSERT address.node_id IS UNIQUE:
+Multiple nodes with label `Address` have property `node_id` = 175307:
+  node(234757)
+  node(386362). See debug.log for more details, reference f43f91b1-d551-4c38-b5de-15050fd58031.
+2017-02-03 14:08:49.484+0000 ERROR Client triggered an unexpected error [UnknownError]: This transaction has already been completed.. See debug.log for more details, reference 1c59836d-0058-41b9-9fd9-42200f0b0d8d.
+2017-02-03 14:17:21.098+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:17:21.122+0000 INFO  Stopping...
+2017-02-03 14:17:21.155+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:20:51.087+0000 INFO  Starting...
+2017-02-03 14:20:51.455+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:20:53.138+0000 INFO  Started.
+2017-02-03 14:20:53.734+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:22:09.882+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:22:09.890+0000 INFO  Stopping...
+2017-02-03 14:22:09.937+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:22:11.565+0000 INFO  Starting...
+2017-02-03 14:22:11.932+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:22:13.812+0000 INFO  Started.
+2017-02-03 14:22:14.450+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:23:09.962+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:23:09.969+0000 INFO  Stopping...
+2017-02-03 14:23:10.001+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:23:11.556+0000 INFO  Starting...
+2017-02-03 14:23:11.910+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:23:13.475+0000 INFO  Started.
+2017-02-03 14:23:14.265+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:23:27.961+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:23:27.968+0000 INFO  Stopping...
+2017-02-03 14:23:28.015+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:23:29.576+0000 INFO  Starting...
+2017-02-03 14:23:29.950+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:23:31.493+0000 INFO  Started.
+2017-02-03 14:23:32.086+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:24:02.059+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:24:02.067+0000 INFO  Stopping...
+2017-02-03 14:24:02.099+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:24:03.633+0000 INFO  Starting...
+2017-02-03 14:24:03.985+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:24:05.579+0000 INFO  Started.
+2017-02-03 14:24:06.160+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:25:11.458+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:25:11.465+0000 INFO  Stopping...
+2017-02-03 14:25:11.497+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:25:13.088+0000 INFO  Starting...
+2017-02-03 14:25:13.459+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:25:14.894+0000 INFO  Started.
+2017-02-03 14:25:15.447+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:25:34.163+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:25:34.171+0000 INFO  Stopping...
+2017-02-03 14:25:34.200+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:25:35.763+0000 INFO  Starting...
+2017-02-03 14:25:36.100+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:25:37.675+0000 INFO  Started.
+2017-02-03 14:25:38.237+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:27:04.162+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:27:04.170+0000 INFO  Stopping...
+2017-02-03 14:27:07.499+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:27:08.825+0000 INFO  Starting...
+2017-02-03 14:27:09.179+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:27:11.569+0000 INFO  Started.
+2017-02-03 14:27:12.257+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:31:49.871+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:31:49.879+0000 INFO  Stopping...
+2017-02-03 14:31:51.842+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:32:24.901+0000 INFO  Starting...
+2017-02-03 14:32:25.265+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:32:28.015+0000 INFO  Started.
+2017-02-03 14:32:28.663+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:33:06.334+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:33:06.342+0000 INFO  Stopping...
+2017-02-03 14:33:08.075+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:34:15.154+0000 INFO  Starting...
+2017-02-03 14:34:15.513+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:34:17.356+0000 INFO  Started.
+2017-02-03 14:34:17.927+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:34:40.728+0000 ERROR Client triggered an unexpected error [UnknownError]: This transaction has already been completed.. See debug.log for more details, reference f64de5a6-ba1e-4340-b8a9-f6eecb10269e.
+2017-02-03 14:34:52.010+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:34:52.018+0000 INFO  Stopping...
+2017-02-03 14:34:53.903+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:35:09.813+0000 INFO  Starting...
+2017-02-03 14:35:10.122+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:35:11.813+0000 INFO  Started.
+2017-02-03 14:35:12.354+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:38:10.590+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:38:10.599+0000 INFO  Stopping...
+2017-02-03 14:38:14.790+0000 INFO  Stopped.
+nohup: les entrées sont ignorées
+2017-02-03 14:42:47.050+0000 INFO  Starting...
+2017-02-03 14:42:47.374+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 14:42:48.960+0000 INFO  Started.
+2017-02-03 14:42:49.509+0000 INFO  Remote interface available at http://localhost:7474/
+2017-02-03 14:48:58.575+0000 INFO  Neo4j Server shutdown initiated by request
+2017-02-03 14:48:58.582+0000 INFO  Stopping...
+2017-02-03 14:48:58.631+0000 INFO  Stopped.
