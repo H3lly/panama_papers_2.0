@@ -1,0 +1,6 @@
+nohup: les entrées sont ignorées
+2017-02-03 13:34:47.918+0000 INFO  No SSL certificate found, generating a self-signed certificate..
+2017-02-03 13:34:48.395+0000 INFO  Starting...
+2017-02-03 13:34:48.955+0000 INFO  Bolt enabled on localhost:7687.
+2017-02-03 13:34:50.743+0000 INFO  Started.
+2017-02-03 13:34:51.405+0000 INFO  Remote interface available at http://localhost:7474/
