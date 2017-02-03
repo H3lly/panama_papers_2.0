@@ -5809,3 +5809,13 @@ BatchingMultipleIndexPopulator{activeTasks=6, executor=java.util.concurrent.Thre
 2017-02-03 15:03:31.805+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Officer(node_id) [provider: {key=lucene, version=1.0}]]
 2017-02-03 15:03:31.806+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
 2017-02-03 15:03:31.807+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-02-03 15:07:35.704+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Starting check pointing...
+2017-02-03 15:07:35.705+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Starting store flush...
+2017-02-03 15:07:35.789+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1079 to [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.b], from [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.a].
+2017-02-03 15:07:35.792+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1079 to [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.b], from [/net/cremi/camaussignac/espaces/travail/panama_papers_2.0/neo4j-community-3.1.1/data/databases/graph.db/neostore.counts.db.a].
+2017-02-03 15:07:39.753+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Store flush completed
+2017-02-03 15:07:39.754+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Starting appending check point entry into the tx log...
+2017-02-03 15:07:39.755+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Appending check point entry into the tx log completed
+2017-02-03 15:07:39.755+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1079]:  Check pointing completed
+2017-02-03 15:07:39.756+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [2]:  Starting log pruning.
+2017-02-03 15:07:39.760+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [2]:  Log pruning complete.
