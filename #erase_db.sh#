@@ -1,6 +1,0 @@
-#! /bin/bash
-
-./neo4j-community-3.1.1/bin/neo4j stop;
-echo "Neo4j stopped."
-rm -rf /neo4j-community-3.1.1/data/*;
-echo "Data erased !"
